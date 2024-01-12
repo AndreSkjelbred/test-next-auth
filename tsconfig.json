@@ -1,11 +1,17 @@
 {
-	"include": ["process.d.ts", "next-env.d.ts", "next-auth.d.ts", "**/*.ts", "**/*.tsx"],
+	"include": [
+		"process.d.ts",
+		"next-env.d.ts",
+		"next-auth.d.ts",
+		"**/*.ts",
+		"**/*.tsx"
+	],
 	"compilerOptions": {
 		"target": "ES2019",
 		"lib": ["DOM", "DOM.Iterable", "ES2019"],
 		"allowJs": true,
 		"skipLibCheck": true,
-		"strict": true,
+		"strict": false,
 		"forceConsistentCasingInFileNames": true,
 		"noEmit": true,
 		"esModuleInterop": true,

@@ -5,6 +5,7 @@ import { objectToAuthDataMap, AuthDataValidator } from "@telegram-auth/server";
 const BOT_TOKEN = "6314352747:AAF7ylsE5ZM3ZQ1xIevAG_7lCnDfU0wvkOg";
 
 export const authOptions: NextAuthOptions = {
+	secret: "alexisashitlittleboy",
 	providers: [
 		CredentialsProvider({
 			id: "telegram-login",
